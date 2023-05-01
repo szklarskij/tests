@@ -50,6 +50,7 @@ it('should throw an error if no value is passed into the function', ()=>{
     }
 
     expect(resultFn).toThrow();
+<<<<<<< HEAD
 })
 
 if('should throw error if provided with multiple arguments instead of an array',()=>{
@@ -61,3 +62,6 @@ const resultFn = ()=>{
 }
 expect(resultFn).toThrow();
 });
+=======
+})
+>>>>>>> b2f7b279057dabf92ed688fe192f92b62d64c003
