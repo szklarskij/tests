@@ -49,7 +49,7 @@ it('should throw an error if no value is passed into the function', ()=>{
         add();
     }
 
-    expect(resultFn).toThrow();
+    expect(resultFn).toThrow(/is not iterable/);
 })
 
 if('should throw error if provided with multiple arguments instead of an array',()=>{
